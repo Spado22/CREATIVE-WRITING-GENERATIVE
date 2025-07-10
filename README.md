@@ -33,7 +33,7 @@ Edit
 # How to Run
 
 1. Clone the repo:
-git clone https://github.com/yourusername/creative-writing-generator.git
+git clone (https://github.com/Spado22/CREATIVE-WRITING-GENERATIVE.git)
 cd creative-writing-generator
 
 markdown
