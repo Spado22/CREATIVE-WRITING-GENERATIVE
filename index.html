@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fire4s Creative Writing Generator</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <header>
+    <div id="logo">
+      <img src="Fire.jpg" alt="Fire4s Logo" style="height: 120px;">
+    </div>
+    <nav>
+      <label for="templateSelector">Templates:</label>
+      <select id="templateSelector">
+        <option value="template1">Template 1</option>
+        <option value="template2">Template 2</option>
+        <option value="template3">Template 3</option>
+        <option value="template4">Template 4</option>
+        <option value="template5">Template 5</option>
+        
+      </select>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Fire4s Creative Writing Generator</h1>
+
+    <section class="form-container">
+      <label for="genre">Genre👻:</label>
+      <input placeholder="Enter Genre" type="text" id="genre" aria-required="true">
+
+      <label for="title">Title🗞️:</label>
+      <input placeholder="Enter Title" type="text" id="title" aria-required="true">
+
+      <label for="author">Author✍🏽️:</label>
+      <input placeholder="Enter Author" type="text" id="author" aria-required="true">
+
+      <label for="characters">Characters🤖🤡👽:</label>
+      <input placeholder="Enter Characters" type="text" id="characters">
+
+      <label for="storyline">Storyline📖:</label>
+      <input placeholder="Enter Storyline" type="text" id="storyline" aria-required="true">
+
+      <label for="message">The Message📜:</label>
+      <input placeholder="Enter The Message" type="text" id="message">
+
+      <label for="date">Date📅:</label>
+      <input type="date" id="date" aria-required="true">
+
+      <button id="generateBtn">Generate </button>
+    </section>
+
+    <section class="results">
+      <h2>Results📋</h2>
+      <div id="resultBox"></div>
+      <button id="downloadBtn">Download as PDF</button>
+    </section>
+  </main>
+<footer>
+  <p>&copy; 2025 Fire4s. All rights reserved.</p>
+    <div class="social-icons">
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+</footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
